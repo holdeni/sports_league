@@ -1,0 +1,108 @@
+/* $Id: scheduleMail.css 252 2012-08-01 15:16:59Z Henry $ */
+/* Last Change: $Date: 2012-08-01 11:16:59 -0400 (Wed, 01 Aug 2012) $ */
+
+p {
+   color: black;
+   font-family: 'Trebuchet MS';
+   font-size: 10pt;
+}
+
+/* ... header styles */
+h1 {
+   color: #003399;
+   font-size: 10pt;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, 'Sans Serif';
+}
+h2 {
+   color: #003399;
+   font-size: 10pt;
+   font-weight: bold;
+   font-family: Arial, Helvetica, 'Sans Serif';
+}
+h3 {
+   color: #003399;
+   font-size: 10pt;
+   font-family: Arial, Helvetica, 'Sans Serif';
+   font-weight: normal;
+}
+h4 {
+      color: #FF9900;
+      font-size: 10pt;
+      font-weight: normal;
+      font-family: Arial, Helvetica, 'Sans Serif'
+}
+
+/* ... table cell styles */
+th {
+   font-family: Arial;
+   font-size: 8pt;
+   color: #000000;
+   font-weight: bold;
+   background-color: #CCCCFF;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+td {
+   font-family: 'Arial';
+   font-size: 10pt;
+   vertical-align: top;
+ }
+
+/* ... table style for specific presentation -- text schedule output */
+#schedule table {
+   border-collapse: collapse;
+ }
+#schedule td {
+   border: 1px solid #000000;
+   padding: 1px;
+   padding-left: 3px;
+ }
+#schedule .newDay {
+   border-top: 3px solid #000000;
+   border-right: 1px solid #000000;
+   border-left: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+ }
+#schedule .highlightTeam {
+   color: #800000;
+ }
+#schedule .played {
+   background-color: #90EE90;
+ }
+#schedule .rainout {
+   background-color: #ADD8E6;
+ }
+#schedule .forfeit {
+	background-color: #90EE00;
+}
+#schedule .legend {
+   float: left;
+   width: 500px;
+ }
+
+/* ... table style for specific presentation -- calendar format schedule */
+#schedule-cal .schedule-cal {
+   width: 800px;
+ }
+#schedule-cal .calendar {
+   font-family: Arial; font-size: 12px;
+ }
+#schedule-cal table.calendar {
+   margin: auto;
+   border-collapse: collapse;
+   width: 98%;
+ }
+#schedule-cal .calendar .days td {
+   width: 80px;
+   height: 80px;
+   padding: 4px;
+   border: 1px solid #999;
+   vertical-align: top;
+   background-color: #DEF;
+ }
+#schedule-cal .day_num {
+   color: #800000;
+ }

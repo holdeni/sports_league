@@ -1,0 +1,25 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-10-19 00:13:18 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 00:47:18 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 01:20:41 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 02:10:40 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-19 03:43:55 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 07:07:53 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 08:24:11 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 08:47:20 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-19 11:22:08 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> apple-touch-icon-152x152-precomposed.png
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> apple-touch-icon-152x152.png
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> apple-touch-icon-precomposed.png
+ERROR - 2014-10-19 15:27:44 --> 404 Page Not Found --> favicon.ico
+ERROR - 2014-10-19 17:46:48 --> 404 Page Not Found --> apple-touch-icon-precomposed.png
+ERROR - 2014-10-19 17:46:48 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2014-10-19 19:14:05 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-19 19:15:46 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-19 19:22:45 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 20:18:18 --> 404 Page Not Found --> schedules
+ERROR - 2014-10-19 20:33:45 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-19 21:02:16 --> 404 Page Not Found --> pipermail

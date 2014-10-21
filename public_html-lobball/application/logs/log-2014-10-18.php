@@ -1,0 +1,24 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-10-18 00:32:06 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 00:52:17 --> 404 Page Not Found --> wp-login.php
+ERROR - 2014-10-18 00:52:18 --> 404 Page Not Found --> administrator
+ERROR - 2014-10-18 00:52:18 --> 404 Page Not Found --> user
+ERROR - 2014-10-18 00:52:19 --> 404 Page Not Found --> admin.php
+ERROR - 2014-10-18 01:03:13 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 04:10:49 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 04:12:20 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 08:17:23 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 09:51:23 --> 404 Page Not Found --> administrator
+ERROR - 2014-10-18 11:49:08 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 11:49:10 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 12:19:08 --> 404 Page Not Found --> robots.txt
+ERROR - 2014-10-18 12:19:59 --> 404 Page Not Found --> apple-touch-icon-precomposed.png
+ERROR - 2014-10-18 12:19:59 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2014-10-18 12:20:12 --> 404 Page Not Found --> apple-touch-icon-precomposed.png
+ERROR - 2014-10-18 12:20:12 --> 404 Page Not Found --> apple-touch-icon.png
+ERROR - 2014-10-18 15:22:33 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 17:14:56 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 21:52:25 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 22:08:27 --> 404 Page Not Found --> pipermail
+ERROR - 2014-10-18 23:22:15 --> 404 Page Not Found --> robots.txt

@@ -1,0 +1,568 @@
+/* $Id: style.css 177 2011-06-28 17:12:58Z Henry $ */
+/* Last Change: $Date: 2011-06-28 13:12:58 -0400 (Tue, 28 Jun 2011) $ */
+
+/* ... general style */
+body {
+   color: black;
+   font-family: Arial, Helvetica, 'Sans Serif';
+   font-size: 10pt;
+   margin: 0;
+   padding: 0;
+}
+
+
+/* ... template DIV style details - Main pieces*/
+#wrapper {
+   overflow: hidden;
+   width: 1000px;
+   margin: 10px auto;
+   padding: 10px;
+   border: 2px solid #EFDDA8;
+ }
+
+#nav {
+   float: left;
+   width: 160px;
+   height: auto;
+   padding: 2px;
+   border: 2px solid #31363E;
+ }
+
+#main {
+   float: right;
+/*   margin-left: 175px; */
+   width: 800px;
+   height: auto;
+ }
+
+#header {
+   font-size: 12px;
+   margin-bottom: 10px;
+   vertical-align: middle;
+ }
+
+#footer {
+   clear: both;
+   padding-top: 40px;
+   font-size: 9px;
+ }
+
+#globalnav {
+   float: right;
+   margin-left: 200px;
+   width: 800px;
+   height: 30px;
+   margin: 2px 0 10px 0;
+   padding: 0;
+   background: #8FBC8B;
+ }
+
+/* template DIV sytle details - Global (top section) Navigation piece */
+#globalnav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+#globalnav li {
+   float: left;
+   margin: 0;
+   padding: 0;
+   font-size: 80%;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+ }
+
+#globalnav li a {
+   float: left;
+   padding: 10px 12px;
+   text-decoration: none;
+/*   color: #D73ED9; */
+   color: #000000;
+   border: none;
+ }
+
+#globalnav li a:hover {
+   color: #E4DEAE;
+ }
+
+#globalnav .header {
+   text-align: left;
+   font-size: 18pt;
+   color: #8FBC8B;
+   font-family: Helvetica;
+   text-transform: uppercase;
+ }
+
+
+/* DIV style for game result form */
+#result-form {
+   background: #DEF;
+ }
+
+
+/* ... paragraph styles */
+p {
+   color: black;
+   font-family: 'Trebuchet MS';
+   font-size: 10pt;
+}
+p.error {
+   color: red;
+   font-weight: bold;
+}
+p.success {
+   color: green;
+   font-weight: bold;
+}
+p.info {
+   color: blue;
+   font-weight: bold;
+}
+
+
+/* ... font styles */
+font.error {
+   color: red;
+   font-weight: bold;
+}
+font.success {
+   color: green;
+   font-weight: bold;
+}
+font.info {
+   color: blue;
+   font-weight: bold;
+}
+
+.fixedFont {
+   font-family: Courier;
+ }
+
+
+/* ... header styles */
+h1 {
+   color: #003399;
+   font-size: 10pt;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, 'Sans Serif';
+}
+h2 {
+   color: #003399;
+   font-size: 10pt;
+   font-weight: bold;
+   font-family: Arial, Helvetica, 'Sans Serif';
+}
+h3 {
+   color: #003399;
+   font-size: 10pt;
+   font-family: Arial, Helvetica, 'Sans Serif';
+   font-weight: normal;
+}
+h4 {
+      color: #FF9900;
+      font-size: 10pt;
+      font-weight: normal;
+      font-family: Arial, Helvetica, 'Sans Serif'
+}
+
+
+
+/* ... unformatted styles */
+pre {
+   font-family: Courier
+}
+
+
+
+/* ... table cell styles */
+th {
+   font-family: Arial;
+   font-size: 8pt;
+   color: #000000;
+   font-weight: bold;
+   background-color: #CCCCFF;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+td {
+   font-family: 'Arial';
+   font-size: 10pt;
+   vertical-align: top;
+ }
+
+td.required {
+   font-size: 8pt;
+   color: #DC143C;
+ }
+
+td.zero {
+   color: blue;
+   border: 1px solid #000000;
+ }
+
+td.negative {
+   color: red;
+   border: 1px solid #000000;
+ }
+
+td.positive {
+   color: green;
+   border: 1px solid #000000;
+ }
+
+
+/* ... table style for specific presentation -- text schedule output */
+#schedule table {
+   border-collapse: collapse;
+ }
+#schedule td {
+   border: 1px solid #000000;
+   padding: 1px;
+   padding-left: 3px;
+ }
+#schedule .newDay {
+   border-top: 3px solid #000000;
+   border-right: 1px solid #000000;
+   border-left: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+ }
+#schedule .highlightTeam {
+   color: #800000;
+ }
+#schedule .played {
+   background-color: #90EE90;
+ }
+#schedule .rainout {
+   background-color: #ADD8E6;
+ }
+#schedule .legend {
+   float: left;
+   width: 500px;
+ }
+
+/* ... table style for specific presentation -- calendar format schedule */
+#schedule-cal .schedule-cal {
+   width: 800px;
+ }
+#schedule-cal .calendar {
+   font-family: Arial; 
+   font-size: 12pt;
+ }
+#schedule-cal table.calendar {
+   margin: auto;
+   border-collapse: collapse;
+   width: 98%;
+ }
+#schedule-cal .calendar .days td {
+   width: 80px; 
+   height: 80px; 
+   padding: 4px;
+   border: 1px solid #999;
+   vertical-align: top;
+   background-color: #DEF;
+ }
+#schedule-cal .day_num {
+   color: #800000;
+ }
+
+
+/* ... table style for specific presentation -- game rescheduling page */
+#reschedulingForm .content {
+   font-family: Arial;
+   font-size: 8pt;
+ }
+
+#rescheduling-old {
+   float: left;
+   width: 150px;
+   border: 1px solid #000000;
+   padding: 2px;
+ }
+
+#rescheduling-new {
+   float: left;
+   margin-left: 75px;
+   margin-right: 75px;
+   width: 150px;
+   border: 1px solid #000000;
+   padding: 2px;
+ }
+
+/* ... table style for specific presentation -- game results report form */
+#result-form table {
+   border-collapse: collapse;
+ }
+#result-form td {
+   padding: 0px;
+ }
+
+
+/* ... table style for specific presentation -- team contact information */
+#contacts table {
+   border-collapse: collapse;
+ }
+
+
+/* ... table style for specific presentation -- team contact information */
+#execContacts table {
+   border-collapse: collapse;
+   margin: auto;
+ }
+#execContacts td {
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-right: 4px;
+   padding-left: 4px;
+ }
+
+
+/* ... table style for specific presentation -- team standings */
+#standings table {
+   border-collapse: collapse;
+   margin: auto;
+ }
+#standings td {
+   vertical-align: middle;
+   text-align: center;
+ }
+
+
+/* ... table style for specific presentation -- team head to head */
+#standingsH2H table {
+   border-collapse: collapse;
+   margin: auto;
+ }
+#standingsH2H td {
+   vertical-align: middle;
+   text-align: left;
+   padding-left: 4px;
+ }
+
+#standingsH2H .teamRow {
+   height: 65px;
+ }
+
+
+/* ... announcements on the home page */
+#announcements .notice1 {
+   overflow: hidden;
+   background-color: #DCDCDC;
+   width: 100%;
+   padding-right: 4px;
+   padding-left: 4px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+ }
+
+#announcements .notice2 {
+   overflow: hidden;
+   background-color: #E6E6FA;
+   width: 100%;
+   padding-right: 4px;
+   padding-left: 4px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+ }
+
+#announcements .float-left {
+   float: left;
+   width: 400px;
+ }
+
+#announcements .float-right {
+   float: right;
+   width: 400px;
+ }
+
+#announcements .full-width {
+   float: left;
+   width: 800px;
+ }
+
+
+/* ... directory contents displays for website administration */
+#dirContents table {
+   border-collapse: collapse;
+ }
+
+#dirContents td {
+   border: 1px solid #000000;
+   padding: 1px;
+   padding-left: 3px;
+ }
+
+#dirContents .time {
+   text-align: center;
+   font-family: Courier;
+ }
+
+#dirContents .file {
+   color: green;
+ }
+
+#dirContents .link {
+   color: black;
+ }
+
+#dirContents .dir {
+   color: blue;
+ }
+
+
+/* ... block of games on mainpage for last and this week */
+#weeklyResults {
+ }
+
+#lastWeeklyResults {
+   width: 800px;
+   background-color: #DCDCDC;
+ }
+
+#thisWeeklyResults {
+   width: 800px;
+   background-color: #E6E6FA;
+ }
+
+#dayOfGames {
+   overflow: hidden;
+   width: 250px;
+   float: left;
+   border: 1px solid #000000;
+   background-color: #DEF;
+ }
+
+#dayOfGames td {
+   vertical-align: middle;
+   font-size: 8pt;
+ }
+
+#dayOfGames.notFirst {
+   margin-left: 15px;
+ }
+
+
+
+/* ... footer format options */
+#footer-left {
+	float: left;
+ }
+
+#footer-right {
+	float: right;
+ }
+
+
+
+/* ... this class for a DIV is used to reset things when using float:left and/or float:right div blocks */
+div.clearFloat {
+   clear: both;
+ }
+
+
+
+/* ... block of showing file contents */
+#showFile {
+   padding: 15px;
+ }
+
+
+
+/* ... common striping for a table row */
+tr.odd {
+   background-color: #DEF;
+ }
+
+
+
+/* ... quick cell styles - top left/center/right */
+td.TL  {
+   vertical-align: top;
+   text-align: left;
+}
+td.TLN {
+   vertical-align: top;
+   text-align: left;
+   white-space: nowrap;
+}
+td.TC  {
+   vertical-align: top;
+   text-align: center;
+}
+td.TCN {
+   vertical-align: top;
+   text-align: center;
+   white-space: nowrap;
+}
+td.TR  {
+   vertical-align: top;
+   text-align: right;
+}
+td.TRN {
+   vertical-align: top;
+   text-align: right;
+   white-space: nowrap;
+}
+
+/* ... quick cell styles - middle left/center/right */
+td.ML  {
+   vertical-align: middle;
+   text-align: left;
+}
+td.MLN {
+   vertical-align: middle;
+   text-align: left;
+   white-space: nowrap;
+}
+td.MC  {
+   vertical-align: middle;
+   text-align: center;
+}
+td.MCN {
+   vertical-align: middle;
+   text-align: center;
+   white-space: nowrap;
+}
+td.MR  {
+   vertical-align: middle;
+   text-align: right;
+}
+td.MRN {
+   vertical-align: middle;
+   text-align: right;
+   white-space: nowrap;
+}
+
+/* ... quick cell styles - bottom left/center/right */
+td.BL  {
+   vertical-align: bottom;
+   text-align: left;
+}
+td.BLN {
+   vertical-align: bottom;
+   text-align: left;
+   white-space: nowrap;
+}
+td.BC  {
+   vertical-align: bottom;
+   text-align: center;
+}
+td.BCN {
+   vertical-align: bottom;
+   text-align: center;
+   white-space: nowrap;
+}
+td.BR  {
+   vertical-align: bottom;
+   text-align: right;
+}
+td.BRN {
+   vertical-align: bottom;
+   text-align: right;
+   white-space: nowrap;
+}
+
+
+/* styles */
